@@ -1,0 +1,32 @@
+:root {
+  --back-color: #000000;
+  --secondary-color: #c7acf5;
+}
+body {
+  background-color: var(--back-color);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: var(--secondary-color);
+}
+#inputEmoji {
+  background-color: #393857;
+  border: none;
+  margin: 1rem;
+  border-bottom: 1px solid var(--secondary-color);
+  /* background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%); */
+}
+h1 {
+  color: linear-gradient(135deg, orange, cyan);
+}
+.outTextDetailed {
+  font-size: 0.7rem;
+
+  padding: 1rem;
+}
+.btn-emoji {
+  border-style: none;
+  padding: 1rem;
+  background-color: var(--back-color);
+}
